@@ -1,0 +1,47 @@
+/* #region utility */
+
+:root {
+    --bg-jumbo: #B4D0E7;
+    --bg-button: #0061FF;
+    --bg-box-light: #0093CE;
+    --bg-box-dark: #0D2481;
+    --bg-box-darker: #61082B;
+    --bg-box-shadow: #A2D39B;
+    --bg-box-border: #D1E9CD;
+    --bg-boxred: #D5001F;
+    --bg-box-central: #F5F5F5;
+    --bg-box-secondary-red: #FF1C1C;
+    --bg-box-yellow: #FFD830;
+    --bg-white: #FFFFFF;
+}
+
+.col-3 {
+    width: calc( (100% / 12) * 3 );
+}
+
+.col-4 {
+    width: calc( (100% / 12) * 4 );
+}
+
+.col-5 {
+    width: calc( (100% / 12) * 5 );
+}
+
+.col-6 {
+    width: calc( (100% / 12) * 6 );
+}
+
+.col-7 {
+    width: calc( (100% / 12) * 7 );
+}
+
+.col-8 {
+    width: calc( (100% / 12) * 8 );
+}
+
+.col-9 {
+    width: calc( (100% / 12) * 9 );
+}
+
+
+/* #endregion utility*/
