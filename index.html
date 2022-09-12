@@ -1,25 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48d660b4b7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Dropbox Clone</title>
 </head>
+
 <body class="debug">
 
     <header id="site_header">
-        <nav id="nav-left"></nav>
-        <nav id="nav-right"></nav>
+        <div class="menu">
+            <nav class="navbar">
+                <img src="./assets/img/logo-small.png" alt="">
+                <ul class="nav_links">
+                    <li class="header_links"><a href="#">Perché Dropbox</a></li>
+                    <li class="header_links"><a href="#">Funzioni</a></li>
+                    <li class="header_links"><a href="#">Piani e Prezzi</a></li>
+                </ul>
+            </nav>
+            <nav class="navbar">
+                <ul class="nav_links">
+                    <li class="header_links"><a href="#">Supporto</a></li>
+                    <li class="header_links"><a href="#">Contatta l'ufficio vendite</a></li>
+                    <li class="header_links"><a href="#">Accedi</a></li>
+                </ul>
+                <a class="start" href="#"><button>Inizia</button></a>
+            </nav>
+        </div>
     </header>
     <!-- /#site_header -->
 
-    <main id="site_main"></main>
+    <main id="site_main">
+        <div class="jumbo">
+            <div class="container">
+                <h1>Tutto ciò che ti serve per il <br> lavoro, in un unico posto</h1>
+                <div class="row">
+                    <div class="col-4">
+                        <p>
+                            Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
+                            posto.
+                            Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente ed
+                            integrato
+                            per ottimizzare il flusso di lavoro esistente.
+                        </p>
+                        <a class="start_try" href="#"><button>Inizia la tua prova gratuita</button></a>
+                        <p>
+                            Annulla in qualsiasi momento
+                        </p>
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                    <div class="col-8">
+                        <img src="./assets/img/jumbo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <!-- /#site_main -->
-    
+
     <footer id="site_footer"></footer>
     <!-- /#site_footer -->
-    
+
 </body>
+
 </html>
