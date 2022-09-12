@@ -64,8 +64,8 @@
     padding: 6rem 0;
 }
 
-.bot-zero {
-    margin-bottom: 0;
+.m-5 {
+    margin: 0.2rem;
 }
 
 .row {
@@ -256,11 +256,51 @@ h2 {
 .piano {
     font-size: small;
     opacity: 0.5;
+    padding-bottom: 2.5rem;
 }
 
 .card .options {
-
+    padding-top: 1rem;
+    font-size: small;
+    color: grey;
+    display: flex;
 }
 
+.card .options i {
+    color: black;
+    padding-right: 0.2rem;
+}
+
+.card a {
+    padding-left: 1rem;
+}
+
+.d_try {
+    padding: 0.5rem;
+    margin: 1.5rem 0 1rem 0;
+    background-color: var(--bg-button);
+    color: white;
+    border: none;
+    transition: all 0.7s ease 0s;
+}
+
+.d_try:hover {
+    padding: 0.6rem;
+    box-shadow: 0px 0px 2px 2px lightblue;
+}
+
+.buy_now {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.buy_link {
+    font-size: 10px;
+    padding-left: 0;
+}
 
 /* #endregion main */
+
+
