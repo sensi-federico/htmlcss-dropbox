@@ -89,6 +89,10 @@ img {
     max-width: 100%;
 }
 
+.sponsor_img {
+    max-width: 50%;
+}
+
 .p-none {
     padding: 0;
 } 
@@ -455,6 +459,53 @@ h2 {
     color: var(--bg-button);
     font-size: 13px;
 }
+
+
+
+
+/* #region sponsor */
+
+
+.sponsor_container {
+    width: 100%;
+    display: flex;
+    padding-top: 7rem;
+}
+
+.sponsor_col {
+    width: calc((100% / 12) * 4 );
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.cont-img {
+    width: calc((100% / 12) * 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+
+#designit {
+    background-color: var(--bg-box-shadow);
+    border: 20px solid var(--bg-box-border);
+}
+
+#arizona {
+    background-color: var(--bg-box-darker);
+}
+
+#florida {
+    background-color: var(--bg-box-light);
+}
+
+#topps {
+    background-color: var(--bg-boxred);
+}
+
+
+/* #endregion sponsor */
 
 /* #endregion main */
 
