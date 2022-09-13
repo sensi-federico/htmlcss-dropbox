@@ -89,6 +89,10 @@ img {
     max-width: 100%;
 }
 
+.p-none {
+    padding: 0;
+} 
+
 /* #endregion utility*/
 
 /* #region header */
@@ -316,6 +320,7 @@ h2 {
 .buy_link {
     font-size: 10px;
     padding-left: 0;
+    color: var(--bg-button);
 }
 
 .card h4 {
@@ -329,7 +334,7 @@ h2 {
 }
 
 .fa-check {
-    padding-top: 0.2rem
+    padding-top: 0.2rem;
 }
 
 .top_card_2 {
@@ -440,6 +445,16 @@ h2 {
     color: grey;
 }
 
+
+.business {
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+
+.container_3 a {
+    color: var(--bg-button);
+    font-size: 13px;
+}
 
 /* #endregion main */
 
