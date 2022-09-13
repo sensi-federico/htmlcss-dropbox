@@ -229,7 +229,7 @@ h2 {
     margin-bottom: 0;
 }
 
-.fa-user {
+.fa-user, .fa-user-group, .fa-building {
     font-size: small;
 }
 
@@ -244,6 +244,7 @@ h2 {
     padding: 1rem;
     margin: 3px;
     margin-top: 0;
+    height: 115vh;
 }
 
 .card h3 {
@@ -264,16 +265,20 @@ h2 {
     padding-bottom: 2.5rem;
 }
 
+.white {
+    color: white;
+}
+
 .card .options {
     padding-top: 1rem;
-    font-size: small;
+    font-size: x-small;
     color: grey;
     display: flex;
 }
 
 .card .options i {
     color: black;
-    padding-right: 0.2rem;
+    padding-right: 0.5rem;
 }
 
 .card a {
@@ -355,6 +360,20 @@ h2 {
     color: grey;
     font-size: 10px;
     padding-top: 2rem;
+}
+
+.contact_button {
+    padding: 0.5rem 3.5rem;
+    margin: 1.5rem 0 1rem 0;
+    background-color: var(--bg-button);
+    color: white;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+.contact_button:hover {
+    padding: 0.6rem 3.6rem;
+    box-shadow: 0px 0px 2px 2px lightblue;
 }
 
 /* #endregion main */
