@@ -486,6 +486,14 @@ h2 {
     height: 30vh;
 }
 
+.main-img {
+    width: calc((100% / 12) * 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
 
 #designit {
     background-color: var(--bg-box-shadow);
