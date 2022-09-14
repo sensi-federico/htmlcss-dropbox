@@ -667,4 +667,17 @@ footer h4 {
     font-size: small;
 }
 
+.span-footer a:hover {
+    text-decoration: underline;
+
+}
+
+#selector {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1rem 0;
+    border-top: 1px solid white;
+}
+
 /* #endregion footer */
