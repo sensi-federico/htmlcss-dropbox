@@ -75,6 +75,10 @@
     display: grid;
 }
 
+.d-flex {
+    display: flex;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -169,7 +173,7 @@ h1 {
 
 .jumbo {
     background-color: var(--bg-jumbo);
-    height: 73vh;
+    height: 66vh;
 }
 
 .start_try button {
@@ -259,7 +263,7 @@ h2 {
     padding: 1rem;
     margin: 3px;
     margin-top: 0;
-    height: 110vh;
+    height: 100vh;
 }
 
 .card h3 {
@@ -486,12 +490,28 @@ h2 {
     height: 30vh;
 }
 
-.main-img {
-    width: calc((100% / 12) * 12);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
+.main_box {
+    background-color: var(--bg-box-central);
+    width: calc((100% / 12) * 4);
+}
+
+.main_img {
+    margin-top: 3rem;
+    height: 9vh;
+    margin-left: 2rem;
+}
+
+
+hr {
+    width: 90px;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    color: grey;
+    opacity: 0.2;
+}
+
+.main_box p {
+    padding: 2rem 3rem 1rem 3rem;
 }
 
 
@@ -512,8 +532,32 @@ h2 {
     background-color: var(--bg-boxred);
 }
 
+#world {
+    background-color: var(--bg-box-secondary-red);
+}
+
+#hearts {
+    background-color: var(--bg-box-light);
+}
+
+#lonely {
+    background-color: var(--bg-box-dark);
+}
+
+#clear {
+    background-color: var(--bg-box-yellow);
+}
 
 /* #endregion sponsor */
+
+
+
+/* #region dropdown */
+
+
+/* #endregion dropdown */
+
+
 
 /* #endregion main */
 
