@@ -482,6 +482,15 @@ h2 {
     flex-wrap: wrap;
 } 
 
+.sponsor_row {
+    width: 100%;
+    display: flex;
+    background-color:  var(--bg-jumbo);
+    height: 40vh;
+    align-items:center ;
+    justify-content: space-evenly;
+}
+
 .cont-img {
     width: calc((100% / 12) * 6);
     display: flex;
@@ -546,6 +555,27 @@ hr {
 
 #clear {
     background-color: var(--bg-box-yellow);
+}
+
+
+.d_try_white {
+    padding: 0.7rem 2rem;
+    margin: 1.5rem 0 1rem 0;
+    background-color: white;
+    color: rgb(113, 113, 113);
+    border: 0.5px solid grey;
+    transition: all 0.3s ease 0s;
+    font-size: 12px;
+}
+
+.d_try_white:hover {
+    box-shadow: 5px 5px 0px 0px rgba(128,128,128,0.4);
+    padding: 1rem 2.5rem;
+}
+
+.box-row {
+    font-size: 35px;
+    color: #61082B;
 }
 
 /* #endregion sponsor */
